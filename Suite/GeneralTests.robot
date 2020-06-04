@@ -23,7 +23,7 @@ User Get A Unique Code To Create Account
     Open and Load
     Get Code
     Close Browser
-User Get Unigue Code To Sign In to Account
+User Get A Unigue Code To Sign In to Account
     Open and Load
     Maximize Browser Window
     Get Code
