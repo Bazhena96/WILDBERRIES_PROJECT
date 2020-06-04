@@ -19,14 +19,14 @@ Signed User Add Product To The Card
     Open and Load
     Maximize Browser Window
     User Search  Dress
-    Add Product To Card
+    Add Product To The Card
     Close Browser
 Verify That Product Added To The Card
     Open and load
     Maximize Browser Window
     Get Code
     User Search  Dress
-    Add Product To Card
+    Add Product To The Card
     User Choose The Product Size
     Verify That Product Added To The Card  css=.item-in-basket
     Close Browser
