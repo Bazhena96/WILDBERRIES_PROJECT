@@ -5,7 +5,7 @@ Resource  Variables.robot
 *** Keywords ***
 Open and Load
     Open Browser  https://www.wildberries.by  chrome  executable_path=/usr/local/Caskroom/chromedriver/83.0.4103.39/chromedriver
-    Sleep  5
+    Set Browser Implicit Wait  5
 User Search
     [Arguments]  ${SEARCH_PRODUCT}
     Wait Until Page Contains Element  css=#tbSrch
@@ -23,14 +23,14 @@ Choose Adress To Delivery
     Click Element  css=.geocity
     Wait Until Page Contains Element  css=.geocity-poo-link
     Click Element  css=.geocity-poo-link
-    wait Until Page Contains Element  css=div.item-pickup:nth-child(2) > div:nth-child(1)
+    Wait Until Page Contains Element  css=div.item-pickup:nth-child(2) > div:nth-child(1)
     Click element  css=div.item-pickup:nth-child(2) > div:nth-child(1)
 Get Code
     Click Element  css=.offline
     Wait Until Page Contains Element  css=#phoneMobile
     Input Text  css=#phoneMobile  ${USER_NUMBER_PHONE}
     Click Element  css=button.c-btn-main-lg-v1:nth-child(1)
-Add Product To Card
+Add Product To The Card
     Wait Until page Contains Element  css=#c6020540
     Click Element  css=#c6020540
     Wait Until Page Contains Element  css=.cart-btn-wrap
@@ -44,3 +44,4 @@ Verify That Product Added To The Card
 User Choose The Product Size
     Wait Until Page Contains Element  css=.j-size
     Click Element  css=.j-size
+    
