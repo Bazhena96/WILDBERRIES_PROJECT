@@ -7,12 +7,12 @@ Open and Load Page
 User Change The Country Settings
     Open and Load
     Change The Country Settings
-    Sleep  3
+    Set Browser Implicit Wait  5
     Close Browser
 Verify That The Country Settings Changed
     Open and Load
     Change The Country Settings
-    Sleep  5
+    Set Browser Implicit Wait  5
     Verify That The Country Settings Changed
     Close Browser
 User Choose Adress To Delivery
