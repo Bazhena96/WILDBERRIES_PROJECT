@@ -14,20 +14,20 @@ Verify That Search Completed
     User Search  Dress
     Verify That Search Completed
     Close Browser
-Guest User Add Product To The Card
+Guest User Add Product To The Cart
     [Documentation]  First Product From The List
     Open and Load
     Maximize Browser Window
     User Search  Dress
-    Add Product To The Card
+    Add Product To The Cart
     Close Browser
-Verify That Product Added To The Card
+Verify That Product Added To The Cart
     Open and load
     Maximize Browser Window
     User Search  Dress
     User Choose The Product Size
-    Add Product To The Card
-    Verify That Product Added To The Card    В вашей корзине пока ничего нет
+    Add Product To The Cart
+    Verify That Product Added To The Cart    В вашей корзине пока ничего нет
     Close Browser
 
     
