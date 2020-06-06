@@ -30,12 +30,12 @@ Get Code
     Wait Until Page Contains Element  css=#phoneMobile
     Input Text  css=#phoneMobile  ${USER_NUMBER_PHONE}
     Click Element  css=button.c-btn-main-lg-v1:nth-child(1)
-Add Product To The Card
+Add Product To The Cart
     Wait Until page Contains Element  css=#c6020540
     Click Element  css=#c6020540
     Wait Until Page Contains Element  css=.cart-btn-wrap
     Click Element  css=.cart-btn-wrap
-Verify That Product Added To The Card
+Verify That Product Added To The Cart
     [Arguments]  ${BASKET_CONTAIN}
     Wait Until page Contains Element  css=.my-basket
     Click Element  css=.my-basket
