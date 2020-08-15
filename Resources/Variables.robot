@@ -1,3 +1,2 @@
-***Variables***
-
-${USER_NUMBER_PHONE}  +375255433153
+*** Variables ***
+${phone number}  +375255433153
