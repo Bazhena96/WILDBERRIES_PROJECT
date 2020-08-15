@@ -23,7 +23,6 @@ Verify that product added to the cart
     Get Code
     User Search  Dress
     Add Product To The Cart
-    User Choosed The Product Size
     Verify That Product Added To The Cart  css=#body-layout > div > div > div.lk.j-b-lk-basket.cart-page.unregistered.by > div > div.order-details > div.visitedGoods-in-basket > div > div.list.j-products-container > div > a > div.item-img > img
     Close Browser
     
