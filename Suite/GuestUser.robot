@@ -25,5 +25,3 @@ Verify that product added to the cart
     Add Product To The Cart
     Verify That Product Added To The Cart    В вашей корзине пока ничего нет
     Close Browser
-
-    
