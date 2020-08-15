@@ -20,7 +20,7 @@ Signed user add product to the cart
     Close Browser
 Verify that product added to the cart
     Load Page And Maximize Browser Window
-    Get Code
+    Get Code  +375255433153
     User Search  Dress
     Add Product To The Cart
     Verify That Product Added To The Cart  css=#body-layout > div > div > div.lk.j-b-lk-basket.cart-page.unregistered.by > div > div.order-details > div.visitedGoods-in-basket > div > div.list.j-products-container > div > a > div.item-img > img
