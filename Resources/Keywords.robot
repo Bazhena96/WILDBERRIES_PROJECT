@@ -36,10 +36,10 @@ Get Code
     Wait And Click  css=button.c-btn-main-lg-v1:nth-child(1)
 Add Product To The Cart
     Wait And Click  css=#c6020540
-    Wait And Click  css=.cart-btn-wrap
+    Wait And Click  css=button.c-btn-main-lg-v1:nth-child(1)
 Verify That Product Added To The Cart
     [Arguments]  ${basket contents}
     Wait And Click  css=.my-basket
-    Wait And Click  ${basket contents}
+    Wait Until Page Contains Element   ${basket contents}
 User Choosed The Product Size
-    Wait And Click  css=.j-size
+    Wait And Click  css=.my-basket > span:nth-child(1)
