@@ -22,12 +22,12 @@ User choosed adress to delivery
     Close Browser
 User got a unique code to create account
     Load Page And Maximize Browser Window
-    Get Code
+    Get Code  +375255433153
     Close Browser
 User got a unigue code to sign in to account
     Load Page And Maximize Browser Window
     Maximize Browser Window
-    Get Code
+    Get Code  +375255433153
     Close Browser
 
     
