@@ -16,15 +16,15 @@ Verify that the country settings changed
     Set Browser Implicit Wait  5
     Verify That The Country Settings Changed
     Close Browser
-User choose adress to delivery
+User choosed adress to delivery
     Load Page And Maximize Browser Window
     Choose Adress To Delivery
     Close Browser
-User get a unique code to create account
+User got a unique code to create account
     Load Page And Maximize Browser Window
     Get Code
     Close Browser
-User get a unigue code to sign in to account
+User got a unigue code to sign in to account
     Load Page And Maximize Browser Window
     Maximize Browser Window
     Get Code
