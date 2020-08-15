@@ -1,7 +1,5 @@
 *** Settings ***
 Library  SeleniumLibrary
-Resource  Variables.robot
-
 *** Keywords ***
 Open and Load
     Open Browser  https://www.wildberries.by  chrome  executable_path=/usr/local/Caskroom/chromedriver/83.0.4103.39/chromedriver
@@ -30,6 +28,7 @@ Choose Adress To Delivery
     Wait And Click  css=.geocity-poo-link
     Wait And Click  css=div.item-pickup:nth-child(2) > div:nth-child(1)
 Get Code
+    [Arguments] ${phone number}
     Click Element  css=.offline
     Wait And Click  css=#phoneMobile
     Input Text  css=#phoneMobile  ${phone number}
