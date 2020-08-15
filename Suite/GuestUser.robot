@@ -20,8 +20,8 @@ Guest user add product to the cart
     Close Browser
 Verify that product added to the cart
     Load Page And Maximize Browser Window
+    Get Code
     User Search  Dress
-    User Choosed The Product Size
     Add Product To The Cart
-    Verify That Product Added To The Cart    В вашей корзине пока ничего нет
+    Verify That Product Added To The Cart  css=.i-empty-basket
     Close Browser
