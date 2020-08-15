@@ -1,29 +1,25 @@
-***Settings***
+*** Settings ***
 Library  SeleniumLibrary
 Resource  ../Resources/Keywords.robot
 
 *** Test Cases ***
-Guest User Search The Product
-    Open and load
-    Maximize Browser Window
+Guest user search the product
+    Load Page And Maximize Browser Window
     User Search  Dress
     Close Browser
-Verify That Search Completed
-    Open and Load
-    Maximize Browser Window
+Verify that search completed
+    Load Page And Maximize Browser Window
     User Search  Dress
     Verify That Search Completed
     Close Browser
-Guest User Add Product To The Cart
-    [Documentation]  First Product From The List
-    Open and Load
-    Maximize Browser Window
+Guest user add product to the cart
+    [Documentation]  First product from the list.
+    Load Page And Maximize Browser Window
     User Search  Dress
     Add Product To The Cart
     Close Browser
-Verify That Product Added To The Cart
-    Open and load
-    Maximize Browser Window
+Verify that product added to the cart
+    Load Page And Maximize Browser Window
     User Search  Dress
     User Choose The Product Size
     Add Product To The Cart
