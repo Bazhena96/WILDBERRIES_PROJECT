@@ -21,7 +21,7 @@ Guest user add product to the cart
 Verify that product added to the cart
     Load Page And Maximize Browser Window
     User Search  Dress
-    User Choose The Product Size
+    User Choosed The Product Size
     Add Product To The Cart
     Verify That Product Added To The Cart    В вашей корзине пока ничего нет
     Close Browser
