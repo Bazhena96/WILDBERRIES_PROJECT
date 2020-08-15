@@ -38,8 +38,8 @@ Add Product To The Cart
     Wait And Click  css=#c6020540
     Wait And Click  css=.cart-btn-wrap
 Verify That Product Added To The Cart
-    [Arguments]  ${contents of the basket}
+    [Arguments]  ${basket contents}
     Wait And Click  css=.my-basket
-    Wait And Click  ${contents of the basket}
+    Wait And Click  ${basket contents}
 User Choose The Product Size
     Wait And Click  css=.j-size
