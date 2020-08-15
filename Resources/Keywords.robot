@@ -41,5 +41,5 @@ Verify That Product Added To The Cart
     [Arguments]  ${basket contents}
     Wait And Click  css=.my-basket
     Wait And Click  ${basket contents}
-User Choose The Product Size
+User Choosed The Product Size
     Wait And Click  css=.j-size
