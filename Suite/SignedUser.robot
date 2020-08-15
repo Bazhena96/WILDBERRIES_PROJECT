@@ -23,7 +23,7 @@ Verify that product added to the cart
     Get Code
     User Search  Dress
     Add Product To The Cart
-    User Choose The Product Size
+    User Choosed The Product Size
     Verify That Product Added To The Cart  css=.item-in-basket
     Close Browser
     
