@@ -1,30 +1,31 @@
-***Settings***
+*** Settings ***
 Library  SeleniumLibrary
-Resource  ../Resources/KeyWords.robot
+Resource  ../Resources/Keywords.robot
+
 *** Test Cases ***
-Open and Load Page
+Open and load page
     Open and Load
-User Change The Country Settings
-    Open and Load
+User change the country settings
+    Load Page And Maximize Browser Window
     Change The Country Settings
     Set Browser Implicit Wait  5
     Close Browser
-Verify That The Country Settings Changed
-    Open and Load
+Verify that the country settings changed
+    Load Page And Maximize Browser Window
     Change The Country Settings
     Set Browser Implicit Wait  5
     Verify That The Country Settings Changed
     Close Browser
-User Choose Adress To Delivery
-    Open and Load
+User choose adress to delivery
+    Load Page And Maximize Browser Window
     Choose Adress To Delivery
     Close Browser
-User Get A Unique Code To Create Account
-    Open and Load
+User get a unique code to create account
+    Load Page And Maximize Browser Window
     Get Code
     Close Browser
-User Get A Unigue Code To Sign In to Account
-    Open and Load
+User get a unigue code to sign in to account
+    Load Page And Maximize Browser Window
     Maximize Browser Window
     Get Code
     Close Browser
