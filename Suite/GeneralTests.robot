@@ -1,10 +1,9 @@
 *** Settings ***
 Library  SeleniumLibrary
 Resource  ../Resources/Keywords.robot
-
 *** Test Cases ***
-Open and load page
-    Open and Load
+Open And load page
+    Load Page And Maximize Browser Window
 User change the country settings
     Load Page And Maximize Browser Window
     Change The Country Settings
