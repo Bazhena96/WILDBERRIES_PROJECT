@@ -1,7 +1,7 @@
 *** Settings ***
 Library  SeleniumLibrary
 *** Keywords ***
-Open and Load
+Open And Load
     Open Browser  https://www.wildberries.by  chrome  executable_path=/usr/local/Caskroom/chromedriver/83.0.4103.39/chromedriver
     Set Browser Implicit Wait  5
 Load Page And Maximize Browser Window
