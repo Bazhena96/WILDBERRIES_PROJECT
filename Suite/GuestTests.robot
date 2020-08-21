@@ -1,7 +1,6 @@
 *** Settings ***
 Library  SeleniumLibrary
 Resource  ../Resources/Keywords.robot
-
 *** Test Cases ***
 Guest user search the product
     Load Page And Maximize Browser Window
